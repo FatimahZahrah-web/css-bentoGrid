@@ -1,0 +1,97 @@
+
+.parent-container {
+background-color: rgb(255, 255, 235);
+border: 50px ;
+padding: 20px 20px;
+display: grid; 
+gap: 20px;
+grid-template-rows: 220px,220px,220px,220px;
+grid-template-columns: 400px,300px,300px,300px;
+
+
+}
+.box-c-content { 
+border-radius: 10px;
+background-color:hsl(31,66%, 93%) ;
+grid-area: 1 / 1/ 2.4 / 2;
+height: 330px;
+width: 160px;
+position: relative;
+left: 256px;
+
+}
+
+.box-s-media {
+background-color: hsl(256, 67%, 59%);
+border-radius: 10px;
+grid-area: 1 / 2 / 2 / 4;
+height:260px;
+width: 425px;
+position: relative;
+left: 135px;
+
+}
+.box-schedule {
+background-color: hsl(254 ,88%,90%);
+grid-area: 1 / 4 / 3 / 5 ;
+border-radius: 10px;
+height:475px ;
+width:200px ;
+position: relative;
+right: 105px;
+}
+.box-write {
+background-color: hsl(39,100%,71%);
+grid-area: 2.5 / 1 / 4 / 2 ;
+border-radius: 10px;
+height: 330px;
+width: 160px;
+position: relative;
+left: 256px;
+}
+.box-manage {
+background-color: hsl(0 ,0%,100%);
+border-radius: 10px;
+height:200px ;
+width: 200px;
+position: relative; 
+left: 140px;
+bottom:75px;
+}
+.box-maintain {
+background-color: hsl(39 ,100%,71%) ;
+border-radius: 10px;
+height:200px ;
+width: 200px;
+position: relative; 
+left: 20px;
+bottom:75px;
+
+}
+.box-fifty6 {
+background-color: hsla(0, 7%, 97%, 0.863);
+border-radius: 10px;
+grid-area: 3 / 2 / 4 / 3;
+height:190px ;
+width: 200px;
+position: relative; 
+left: 140px;
+bottom:210px;
+}
+.box-grow {
+background-color: hsl(256, 67%, 59%);
+grid-area: 3 / 3 / 4 / 5 ;
+width: 420px;
+height: 190px;
+border-radius: 10px;
+font-size: larger;
+position: relative; 
+left: 20px;
+bottom:210px;
+}
+.attribution {
+align-content: center;
+position: relative; 
+left: 20px;
+bottom:210px;
+}
